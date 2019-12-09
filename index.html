@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section  class = "wrapper">
+        <div class = "home-cat">
+            <img src="img/cat-tamagotchi.jpg" alt="cat-tamagotchi">
+        </div>
+        <div class="display">
+            <form class="style-form" action="">
+                <input id="btn_food" type="button" value="food">
+                <input id="btn_clean" type="button" value="clean">
+                <input id="btn_happiness" type="button" value="happiness">
+                <input id="btn_doctor"type="button" value="visit doctor">
+                <input id="btn_bar"type="button" value="go to bar">
+                <input id="btn_work"type="button" value="go to work">
+                <input id="btn_byfood"type="button" value="buy food">
+                <input id="btn_business"type="button" value="start a business">
+            </form>
+            <div class="style-meter">
+                <p>food</p>
+                <meter id="food" min="0" max="150" low="40" high="120" value="0"></meter>
+                <p>clean</p>
+                <meter id="clean" min="0" max="150" low="40" high="120"  value="0"></meter>
+                <p>happiness</p>
+                <meter id="happiness" min="0" max="150" low="40" high="120"  value="0"></meter>
+                <p>health</p>
+                <meter id="health" min="0" max="150" low="40" high="120" value="0"></meter>
+                <p>socialization</p>
+                <meter id="socialization" min="0" max="150" low="40" high="120" value="0"></meter>
+                <p>money</p>
+                <meter id="money" min="0" max="150" low="40" high="120" value="0"></meter>
+            </div>
+        </div>
+    </section>
+<script src ="js/main.js"></script>
+</body>
+</html>
